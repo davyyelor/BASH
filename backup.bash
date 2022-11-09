@@ -1,7 +1,7 @@
 #! /bin/bash
 #precondicion:
 # Instrucción cron (crontab -e): 
-# 00 12 * * * bash /home/mario/Escritorio/seguridad/backups.bash
+# 00 12 * * * bash /home/david/Escritorio/seguridad/backups.bash
 #En este archivo se deberan de cambiar los directorios de la copia origen y destino dependiendo de cuales quieres que sean. 
 
 
