@@ -6,7 +6,7 @@
 
 
 dir_copia="/var/tmp/Backups/"
-origen="/home/mario/Escritorio/seguridad"
+origen="/home/david/Escritorio/seguridad"
 
 function getDiaAnt(){
     echo $(date --date="1 day ago" +%d-%m-%Y)
