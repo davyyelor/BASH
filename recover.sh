@@ -21,3 +21,13 @@ iptables -A OUTPUT -d youtube.com -j DROP
 #Bloquea cualquier trafico no contemplado en las reglas anteriores
 iptables -P INPUT DROP
 iptables -P OUTPUT DROP
+
+
+
+#para saber la direccion ip de una pagina nslookup google.com
+#para ver sus puertos nmap ip
+#para saber el sistema operativo nmap -O -v ip / nmap -sS -sV 192.168.1.38 
+#para saber maquinas activas traceroute ip
+#firewall nmap –mtu 32 –send-eth –data-length 50 –source-port 53 -PN –ip-options «\1\8\3\4» 192.168.1.34
+
+#pag web https://www.foc.es/2021/08/18/5729-nmap-es-una-aplicacion-multiplataforma-nmap-para-linux-y-mac-zenmap-para-windows-que-permite-rastrear-puertos-descubrir-hosts-activos-analizar-mediante-scripts-las-versiones-de-los-servicios-e-in.html
